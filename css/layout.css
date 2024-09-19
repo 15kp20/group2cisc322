@@ -35,7 +35,7 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   font-family: Hind, sans-serif;
   color: #a6a7aa;
@@ -46,7 +46,7 @@ p {
 em,
 li,
 li a {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   font-family: Hind, sans-serif;
   color: #515769;
@@ -66,20 +66,10 @@ a:focus, a:hover, a:active {
 
 .link {
   position: relative;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   font-family: Hind, sans-serif;
   text-transform: uppercase;
-}
-
-.link:after {
-  position: absolute;
-  top: 8px;
-  right: -15px;
-  width: 9px;
-  height: 2px;
-  background: #17bed2;
-  content: " ";
 }
 
 span {
@@ -111,19 +101,19 @@ h1 > a:focus, h2 > a:focus, h3 > a:focus, h4 > a:focus, h5 > a:focus, h6 > a:foc
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 35px;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 30px;
 }
 
 ::selection {
@@ -477,7 +467,7 @@ fieldset[disabled] .btn-theme {
   	[Footer]
 ------------------------------------------------------------------*/
 .footer {
-  background: url(../img/1920x1080/03.jpg) no-repeat;
+  background: rgba(0,0,0,0.1);
   background-size: cover;
   background-position: center center;
 }
@@ -675,7 +665,7 @@ fieldset[disabled] .btn-theme {
 .header .nav-item-child {
   position: relative;
   display: block;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   font-family: Hind, sans-serif;
   color: #fff;
@@ -1158,7 +1148,7 @@ fieldset[disabled] .btn-theme {
   	[Text Colors]
 ------------------------------------------------------------------*/
 .color-base {
-  color: #17bed2;
+  color: #515769;
 }
 
 .color-white {
